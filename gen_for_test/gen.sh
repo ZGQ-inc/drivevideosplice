@@ -1,5 +1,4 @@
 #!/bin/bash
-
 while read -r filepath; do
     filename=$(basename "$filepath")
     
@@ -9,4 +8,3 @@ while read -r filepath; do
            -vf "drawtext=fontfile=/path/to/font.ttf:text='${filename}':fontcolor=white:fontsize=24:x=(w-text_w)/2:y=(h-text_h)/2" \
            -c:v libx264 -pix_fmt yuv420p -y "$output"
 done < filelist.txt
- < filelist.txt
