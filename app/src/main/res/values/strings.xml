@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">行车记录仪视频拼接</string>
+    <string name="about">使用 FFmpeg 进行视频处理。\n使用 FFmpegKit 作为 FFmpeg 的 Android 封装。\n使用 MD3 动态取色。\n\n作者个人主页: domain.zgqinc.gq</string>
+    <string name="about2">视频拼接命令（点击即可复制）：</string>
+    <string name="about3">ffmpeg -f concat -safe 0 -i [/path/to/concat.txt] -c copy [/path/to/output.mp4]</string>
+    <string name="about4">concat.txt 生成命令（点击即可复制）：</string>
+    <string name="about5">find [/path/to/video_files_dir] -name \"*.MP4\" -printf \'%T@ %p\\n\' | sort -r | awk \'{print \"file \\x27\" $2 \"\\x27\"}\' > [/path/to/concat.txt]</string>
+</resources>

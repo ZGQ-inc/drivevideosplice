@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.drivevideosplice" parent="Theme.Material3.DynamicColors.DayNight.NoActionBar">
+
+        <item name="android:statusBarColor">?attr/colorSurface</item>
+
+
+    </style>
+</resources>
